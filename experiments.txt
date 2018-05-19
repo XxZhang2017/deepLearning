@@ -1,0 +1,34 @@
+64 32 128 6 - 70% kern=5x5
+256 128 64 6 - slow
+256 64 6 - slow, bad
+128 64 6 - bad
+32 128 6 - 57%
+32 128 6 kern=3x3 - 45%
+32 128 6 kern=7x7 - 50%
+32 128 6 batch size = 32, kern = 5, opt=adam - 50%
+64 128 6 batch 16 slow
+16 128 6 - 55
+del relu from first cov2d 50
+32 32 128 6 kern=3 70 del white
+32 32 256 6 - 65
+32 32 192 6 - 70+
+32 32 192 6 with poly_decay - 74
+32 32 192 6 with more-train - meh
+32 32 256 6 with marcel-train - 71
+32 32 160 - 68
+32 32 32! 160 6 - 61
+32 16 16 64 - no
+16 16 16 128 - no
+64 16 16 128 - no
+32 32 32 190 - no
+32 32 192 - ok, 70
+32 32 128 - good
+24 24 190 - 70
+24 24 190 no noise : overfit
+24 24 190, 20% noise + 2 degrees: nope
+10% and 0 degrees... - 73
+32 32 192 2 degrees... 70
+
+
+
+

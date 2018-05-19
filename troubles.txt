@@ -1,0 +1,16 @@
+failed:
+image processing to edges, position
+tensor flow
+aws - no gpu for you
+google cloud - anomaly!
+no noise
+more noise
+running noise once
+large epoch
+lots of nodes -- overfitting
+even more layers -- no effect
+
+???:
+image size / scaling
+monochrome vs color
+convolution & pooling on hidden layers (seems like image processing)
