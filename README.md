@@ -1,5 +1,5 @@
 # deepLearning
-2D hand gesture reconization using Tensorflow.
+2D hand gesture reconization using Keras.
 
 hand_gesture_recognition.ipynb  --------use Numpy encode the image to create training dataset.
 
@@ -9,7 +9,7 @@ HGR_fit_in_model.ipynb          --------attempt in sciki-learn but low predict r
 
 tensor-model.ipynb              --------attempt in Tensorflow but get error.
 
-keras.ipynb                     --------attempt in Kare.
+keras.ipynb                     --------attempt in Keras.
 
 troubles.txt                    --------the problems that we got.
 
