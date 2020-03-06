@@ -1,16 +1,10 @@
 # deepLearning
 2D hand gesture reconization using Keras.
 
-hand_gesture_recognition.ipynb  --------use Numpy encode the image to create training dataset.
+MakeVariantData.ipynb           --------The file makes input variant slightly to improve performance of model.
 
-MakeVariantData.ipynb           --------make input variant slightly to improve performance of model.
+keras.ipynb                     --------The file contains the model.
 
-HGR_fit_in_model.ipynb          --------attempt in sciki-learn but low predict rate.
+troubles.txt                    --------The file shows the problems that we got.
 
-tensor-model.ipynb              --------attempt in Tensorflow but get error.
-
-keras.ipynb                     --------attempt in Keras.
-
-troubles.txt                    --------the problems that we got.
-
-experiment.txt                  --------change the parameters of the neural network to analysis performance.
+experiment.txt                  --------The file shows our summaries about changing the parameters of the neural network to analysis performance.
